@@ -9,21 +9,27 @@
   <body>
     <div class="ezemozulu-app">
   <header>
-    <form>
-      <input type="search" placeholder="Enter a city.." required />
-      <input type="submit" value="search" />
+    <form class="search-form">
+      <input type="search" placeholder="Enter a city.." required class="search-form-input" />
+      <input type="submit" value="search" class="search-form-button" />
     </form>
   </header>
   <main>
+    <div class="ezemozulu-app-info">
     <div>
-      <h1>Gqeberha</h1>
-      <p>
+      <h1 class="ezemozulu-app-city">Gqeberha</h1>
+      <p class="ezemozulu-app-details">
         Sunday 20:53, scatterred clouds
         <br />
-        Humidity: 66%, Wind: 3,13km/h
+        Humidity: <strong>66%,</strong>  Wind: <strong>3,13km/h</strong>
       </p>
     </div>
-    <div>⛅ 12&deg;C</div>
+    <div class="ezemozulu-app-temperature-container">
+  <div class="ezemozulu-app-icon">⛅</div> 
+      <div class="ezemozulu-app-temperature">12</div>
+      <div class="ezemozulu-app-unit">°C</div></div>
+  </div>
+</div>
   </main>
   
     <footer> This project was coded by <a href="https://github.com/TandazwaNgqobs" target="_blank"
