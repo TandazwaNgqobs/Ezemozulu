@@ -59,13 +59,13 @@ ezemozulu-app-info {
   display: flex;
 }
 .ezemozulu-app-icon {
-  font-size: 44px;
-  margin-top: 23px;
+  width: 88px;
+  height: 88px;
 }
 .ezemozulu-app-temperature {
   font-size: 88px;
   font-weight: bold;
-  margin-left: 11px;
+  line-height: 88px;
 }
 .ezemozulu-app-unit {
   margin-top: 18px;
